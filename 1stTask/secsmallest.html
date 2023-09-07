@@ -1,0 +1,18 @@
+<script>
+    const numbers = [20, 30, 40, 89, 90, 67, 78, -21, 67];
+
+var lowest = Infinity;
+var secondLowest = Infinity;
+
+for (const num of numbers) {
+    if (num < lowest) {
+        secondLowest = lowest;
+        lowest = num;
+    } else if (num < secondLowest && num !== lowest) {
+        secondLowest = num;
+    }
+}
+
+console.log("Second lowest value:", secondLowest);
+
+</script>

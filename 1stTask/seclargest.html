@@ -1,0 +1,18 @@
+<script>
+    const numbers = [20, 30, 40, 89, 90, 67, 78, -21, 67];
+  
+  var largest = -Infinity;
+  var secondLargest = -Infinity;
+  
+  for (const num of numbers) {
+      if (num > largest) {
+          secondLargest = largest;
+          largest = num;
+      } else if (num > secondLargest && num < largest) {
+          secondLargest = num;
+      }
+  }
+  
+  console.log("Second largest value:", secondLargest);
+  
+  </script>`

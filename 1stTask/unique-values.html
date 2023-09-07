@@ -1,0 +1,17 @@
+<script>
+    const inputArray = [20, 30, 40, 89, 90, 67, 78, -21, 6];
+const uniqueArray = [];
+
+let i = 0;
+while (i < inputArray.length) {
+    const currentValue = inputArray[i];
+
+    if (!uniqueArray.includes(currentValue)) {
+        uniqueArray.push(currentValue);
+    }
+
+    i++;
+}
+
+console.log("Unique values array:", uniqueArray);
+</script>

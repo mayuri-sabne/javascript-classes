@@ -1,0 +1,11 @@
+<script>
+
+    var desc = "hello world how are you";
+    console.log(desc);
+    console.log('Total Words in String: '+ getCount(desc));
+    function getCount(desc) {
+    return desc.split(' ').filter(function(num)
+     {
+    return num != ''}).length;
+    }
+</script>

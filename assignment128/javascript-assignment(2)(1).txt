@@ -1,0 +1,392 @@
+Javascript Exercise:
+-------------------------------------------------------------
+
+1) create a text box , get value from the same. do the validation for mobile number & show result in paragraph ( below textbox)
+
+2) create a text box , get value from the same. do the validation for emailid  & show result in paragraph ( below textbox)
+
+3) create a text box , get value from the same. do the validation for name  & show result in paragraph ( below textbox)
+
+4) generate an array with value [10,20,30,40,50,60,70] and do the sum using reduce() function of javascript
+
+5) generate an array with value [1,2,3,4] and show the result as new array=> [1,4,9,16] using for in loop , forEach loop and map() function 
+
+6) generate an array with value [1,4,6,8,12,11,13] and show the resuke as new array=> [1,11,14] using filter() function of javascript
+
+7) generate an example to show the difference between parseInt() & Number() function (Hint: take any value as an input)
+
+8) create a custom function having name calculate() and pass 2 parameter (e.g: 10,20 ) within function & do the multiplication process.
+show the result in console. (Hint: use pass by value)
+
+9) how to create an array using ( new Array() functionality ) in javascript?
+please write down sample code with some value in array.
+
+10) create an object ( custom object  ) in javascript with key (name,age,location ) with any value . show the result in console
+
+11) on button click apply background color to body tag
+
+12) on mousemove event get x coordinate & y coordinate , and show the result in paragraph.
+
+13) create a textbox, enter dummy content and use onkeyup event to show 2 result:
+	a) data in capital case ( in paragraph having id para1)
+	b) data in small case ( in paragraph having id para2)
+
+14) create a paragraph , on mouseover apply background color (grey) & onmouseout apply background color (lightgrey)
+
+15) generate a function name calculate (Note: here you must have anonymous function instead of regular function ).
+print dummy text in console.
+
+a) call the same function using onblur event ( here use textbox )
+b) call the same function using onfocus event ( here use textbox )
+
+--------------------------------------------------------------
+
+
+16) Create a variable called userName, assign the value "Ajay" to it. and check your answer in console
+
+17)  Create a variable called x, assign the value 10
+	Create a variable called y, assign the value 20
+	Create a variable called sum, assign the sum of x&y
+	and check your answer in console
+
+18) Display the sum of 15 + 20, using two variables: x and y
+	& show value in alert box
+
+19) get any value from prompt box and show the same value in console using log function
+
+20) Create a variable called answer, assign data1 * data2 to it, and display the result on browser using write() function
+	here: data1 will have value 100 & data2 will have value 200
+
+21) create a variable data1 & data2 having value ajay & vijay respectively. add data1 & data2 using math ( + ) operator & understand the concept of concatenation operator  
+
+22) create a variable data1 , store 10.90 in data1. and check the data type of data1 in console
+
+23) create two variable having values 10 & 20. & show the multiplication value in alert box
+
+24) create two variable having values 10 & 20. & show the division answer on browser using write() method
+
+25) there is a variable data having value as 10 . find the remainder ( hint : use modulus operator)
+
+26) create a function ( name myfunc() ) and call the same function on button click ( hint : within function print test data using console)
+
+27) create a function ( name myfunc() ) and call the same function using keyup event using textbox ( hint : within function print test data using console)
+
+28) create a function ( name myfunc() ) and call the same function using resize event ( hint : within function print test data using console)
+
+29) create a function ( name myfunc() ) and pass 2 value having number 10 & 20 , do the multiplication & show the result in console  ( hint: use button & onclick event)
+
+30) create a paragraph with some dummy content , on button click change the paragraph value ( hint : use innerHTML & querySelector() functionality) 
+
+31) create a paragraph with some dummy content , on button double click change the paragraph background color to grey ( hint : use style & getElementById() functionality) 
+
+32) create a paragraph with some dummy content , on mouse over change the paragraph content ( hint:  no hint in this case )
+
+33) create a paragraph with some dummy content , on hover apply grey color & on mouse out apply blue color
+
+34) show 1 to 5 number on browser with break using for loop
+
+35) show only even numbers between 1 to 10 using for while loop , show results in console
+
+36) create a variable data , store any number in data & find out whether the no is even or odd ( hint : use if-else & mod operator )
+
+37) create a textbox (with id txt) & get any value from text box using button & show result in console ( hint: use onclick event & value property for textbox )
+
+38) generate 2 textbox (having id txt1,txt2 respectively) , get values of both in data1 & data2. now show the sum of values in paragraph having id para ( note : if you recieve data from textbox then please check data type before you do the sum)
+
+39) create a textbox (with id txt) & get value from textbox & check whether the entered value is string or number (hint: use isNaN() & if-else). show the result in console
+
+40) create a textbox (with id txt) & get value from textbox , in case textbox is empty then please show textbox border with color red & border width 2px.
+
+41) create a textbox (with id txt) & get value.
+if the value is string then show error in paragraph as only number is required. 
+
+-----------------------------------------------------
+
+42) create a textbox (with id txt). create a paragraph (having id para ). onclick event get value from textbox and display it within paragraph ( hint: you may use innerText or innerHTML , get the diff. between innerText,innerHTML)
+
+43) create a textbox (with id txt). create a paragraph (having id para ).onclick event get only number from textbox & display square of the no which you have entered ( hint: use Math library )
+
+44) create an array having any three number. show array structure within console. print individual values also.
+
+45)  create an array having any three number. extract each values using for loop
+
+46)  create an array having any three number. extract each values using while loop
+
+47) create an array having any three number. extract each values using for in loop ( show both index & value in console )
+
+48) create an array having  any three number. use any loop and show the sum of all value in console
+
+
+49) generate a series from 1 to 10 & show square of odd number , cube of even no ( hint: use any loop & modulus opearator )
+
+50) create an array with any three value . on button click add value 10 within an array (i.e at the end )
+
+51) create an array with any three value . on button click add value 20 within an array (i.e at start position )
+
+52) create an array with any five value . on button click remove last value
+
+53) create an array with any five value . on button click remove first value
+
+54) create an array with five value (i.e 10,20,30,40,50) . now search value 10 & 100 from the given array & print its position.
+
+--------------------------------------------------------
+
+55) create a text box , get value from the same. do the validation for mobile number & show result in paragraph ( below textbox)
+
+56) create a text box , get value from the same. do the validation for emailid  & show result in paragraph ( below textbox)
+
+57) create a text box , get value from the same. do the validation for name  & show result in paragraph ( below textbox)
+
+58) generate an array with value [10,20,30,40,50,60,70] and do the sum using reduce() function of javascript
+
+59) generate an array with value [1,2,3,4] and show the result as new array=> [1,4,9,16] using for in loop , forEach loop and map() function 
+
+60) generate an array with value [1,4,6,8,12,11,13] and show the resuke as new array=> [1,11,14] using filter() function of javascript
+
+61) generate an example to show the difference between parseInt() & Number() function (Hint: take any value as an input)
+
+62) create a custom function having name calculate() and pass 2 parameter (e.g: 10,20 ) within function & do the multiplication process.
+show the result in console. (Hint: use pass by value)
+
+63) how to create an array using ( new Array() functionality ) in javascript?
+please write down sample code with some value in array.
+
+64) create an object ( custom object  ) in javascript with key (name,age,location ) with any value . show the result in console
+
+65) on button click apply background color to body tag
+
+66) on mousemove event get x coordinate & y coordinate , and show the result in paragraph.
+
+67) create a textbox, enter dummy content and use onkeyup event to show 2 result:
+	a) data in capital case ( in paragraph having id para1)
+	b) data in small case ( in paragraph having id para2)
+
+68) create a paragraph , on mouseover apply background color (grey) & onmouseout apply background color (lightgrey)
+
+69) generate a function name calculate (Note: here you must have anonymous function instead of regular function ).
+print dummy text in console.
+
+a) call the same function using onblur event ( here use textbox )
+b) call the same function using onfocus event ( here use textbox )
+
+---------------------------------------------------------------
+
+70) create a textbox ( id ="txt" ) , get value from the textbox & check whether the value  is string or number ( hint: use isNaN() function )
+
+71) create 3 paragraph ( having same class = "para" ). select these elements using getElementsByClassName() . apply different background color to individual elements
+
+72) create 2 paragraph ( having same id = "para" with dummy content ). change paragraph value on button click (hint: use innerText, innerHTML). here identify  which paragraph is getting affected. ( or prove that id is unique in a page ) 
+
+73) generate 3 h1 tag . change color , content & background color ( respectively ). use button click to do the process. use getElementsByTag() method
+
+74) create 3 textbox & change value of individual textbox using getElementsByName() , use onclick event with button
+
+75) create 2 textbox , get value from one text box (having class="txt1") and store in 2nd textbox. (having id="txt1") .  use button click
+(hint: use querySelector() function )
+
+76) create a textbox having id =" txt". on button click attach onmouseover event on textbox. after attachment do mouse over on textbox and print dummy text in console.
+
+77) on button click show current date in paragraph.
+
+78) get value from text box on button click & show textbox data in paragraph after 3 sec delay
+
+79) get value from text box on button click & show textbox data in paragraph in every interval (i.e. in every one second continuously).
+
+----------------------------------------------------
+
+80) write a program to get total no of words from the given string. (hint: use split() method )
+[ Note: your input string is => Since JavaScript is a loosely-typed, dynamic and expressive language, you may accomplish the same task in various ways.]
+
+81) Write a JavaScript program to capitalize the first letter of each word of a given string. 
+[ Note: your input string is => JavaScript is a loosely typed , output=> JavaScript Is A Loosely Typed]
+
+82) Write a JavaScript program to display the current day and time in the following format. (HInt: use Date() class)
+[
+	Output : 22/7/2019 10:05:00
+]
+
+83) Write a JavaScript program to get the current date.
+[
+	Output : 22-7-2019
+]
+
+84) Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+
+here get value from textbox & on button click show result in paragraph.
+[ input : 60 in degree & output : 140 in Fahrenheit]
+
+85) Write a JavaScript program to get the website URL of current page & show result in console (loading page).
+
+86) Write a JavaScript exercise to get the extension of a filename & show result in console (loading page). 
+
+87) Write a JavaScript program check if a given positive number is a multiple of 3 or a multiple of 7.
+[ here get input from textbox & show answer as yes or no in paragraph , do the procedure on button click ]
+
+88) Write a JavaScript program to find the largest of three given integers.
+[ here : start with 3 variable having any integer value & do the needful with result in console]
+
+89) Write a JavaScript program to reverse a given string
+[ input : hello , output : olleh ]
+[note: do not use reverse() function here]
+
+90) Write a JavaScript program to find the longest string from a given array.
+[
+	input=> ["hello" ,"hello world" ,"how are you everyone"]
+	answer=>longest string is in array => how are you everyone
+]
+
+91) Write a JavaScript program to swap the first and last elements of a given array of integers.
+
+[ input : [10,20,30,40]  output: [40,20,30,10] ]
+
+92)  Write a JavaScript program to concatenate two strings 
+[ input : hello & world ]
+[ output : helloworld]
+
+93)  Write a JavaScript program to concatenate two strings except their first character.
+[ input : hello & world ]
+[ output : elloorld ]
+
+94) Write a JavaScript program to count the number of vowels in a given string.
+
+[ input : hello world ]
+[ output :  3 [i.e. eoo]  ]
+
+----------------------------------------------
+
+95) Write a JavaScript function that reverse a number. 
+Input : 24678
+Output : 87642
+(Hint: You can use js inbuilt function )
+
+96)  Write a JavaScript function that checks whether a passed string is palindrome or not?
+
+97) Write a JavaScript function that returns a passed string with letters in alphabetical order?
+
+input: ernshw
+output : ehnrsw
+
+98) Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case. 
+
+input : hello world how are you
+output : Hello World How Are You
+
+99) Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
+
+input : hello web developer , how are you?
+output : developer
+
+100) Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string?
+
+input : hello world
+output : 3 (i.e eoo)
+
+101) Write a JavaScript function which accepts an argument(i.e. parameter) and returns the type
+
+input parameter : "hello"
+output : string
+
+input parameter : true
+output : boolean
+
+102)  Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively.
+
+input : [10,20,30,40,50,60]
+output : 20 & 50 ( i.e. second lowest : 20 , second largest :50)
+
+103) Write a JavaScript function to extract unique characters from a string. 
+input : helloworld
+output: helowrd
+
+104) Write a JavaScript function that generates 5 random characters
+output : fdasc or xbswer or aswer or yueiw ( ans so on ...)
+
+105) Write a JavaScript function that generates 5 random numbers
+output : 12652 or 32456 or 98426 ( ans so on ...)
+
+106) Write a JavaScript function that accept a list of user names as input and returns the longest user name as output.
+
+input : ['sunil','anil','ramesh','surya','suryaprakash']
+output : suryaprakash (longest name in array)
+
+107) Write a JavaScript function & return screen width & screen height
+( hint: use screen object in this case )
+
+108) write a javascript program to open a new window , with width:300px & height:300px (hint use window=> object  )
+
+109) write a javascript program to get height & width of the document. 
+
+---------------------------------------------------------
+110) Write  a small example to show the diff between var , let & constant keyword.
+
+111) What is hoisting in javascript , please explain using small example
+
+112) what is spread & rest parameter in javascript
+
+113) write a small code to explain the use of call() , apply()
+
+114) write a sample code to display json object . store number, boolean , function , array within json object.
+
+115) Write  a small example to show the power of eval() function
+
+116) create a textbox ( id="text"). get textbox value using querySelector() example. recieve Date of birth as an input (e.g: 20/12/2019).
+
+now create 3 textbox (having id="x1",id="x2",id="x3"). 
+show date i.e 20 , month i.e 12 and year i.e. 2019 in 3 textbox respectively.
+
+
+117) create a button and show image using img tag.
+on button click change image height & width.
+
+( note : use inbuilt function setAttribute() )
+
+118) create a button and show image using img tag.
+on button click get image height & width & show the same in paragraph
+( note : use inbuilt function getAttribute() )
+
+119) create a button and paragraph , on button click attach onmouseover and onmouse event to paragraph.
+( hint:  use addEventListener)
+
+120) create a crud operation using javascript.
+note: crud stands for create , read , update & delete
+requirement : generate 2 textbox ( for name & mobile ) , one button
+
+procedure: 
+
+	1)
+	on button click get 2 textbox value , validate it ( for name & mobile using regular expression ), incase if you find any error then show respective error message in paragraph.
+
+	2) if there is no error message then show textbox data in table format (note: here you must use appendChild() concept )
+
+	3) along with textbox data show delete button & edit button in table row
+
+	4) on delete button click remove respective table row.
+
+	5) on edit button click get table row data in 2 textbox. & update with new values. & show the final result in respective table row.
+
+	[ For graphical OUTPUT visit : https://www.youtube.com/watch?v=-rNQeJi3Wp4 ]
+
+121) create an example to perform modal box operation using javascript.
+	[i.e. on button click please do the process for modal box]
+
+122) create an example to perform accordion operation using javascript.
+	 
+123) create an example to perform javascript tab operation.
+
+124) create : password box , checkbox.
+on checkbox click  or change event do the following process
+	a) if checkbox is checked then convert password box to textbox
+	b) if checkbox is unchecked then  convert textbox to password box
+
+125)  create :paragraph , checkbox.
+by default paragraph is hide.
+on checkbox click  or change event do the following process
+	a) if checkbox is checked then show paragraph
+	b) if checkbox is unchecked then hide paragraph
+
+126) on button click create textbox and append textbox in li tag
+
+127) on button click create textbox , apply size attribute to textbox and append textbox in li tag
+
+128) on button click create textbox , apply size attribute to textbox attach onkeyup event to textbox & test keyup event with function , attach key and append textbox in li tag
+

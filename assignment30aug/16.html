@@ -1,0 +1,22 @@
+<script>
+
+// Define the initial term and the common ratio
+let term = 54;
+const commonRatio = 3;
+
+// Define the number of terms you want to generate
+const numberOfTerms = 5; // You can change this to generate more terms
+
+// Create an array to store the sequence
+const sequence = [2, 6, 18, 54];
+
+// Generate the next terms in the sequence using a for loop
+for (let i = 4; i < numberOfTerms; i++) { // Start from the 5th term (index 4)
+  term *= commonRatio;
+  sequence[i] = term; // Assign the calculated value to the next position in the array
+}
+
+// Output the generated sequence
+console.log(sequence.join(', '));
+
+</script>

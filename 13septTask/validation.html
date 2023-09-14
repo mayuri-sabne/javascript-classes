@@ -1,0 +1,58 @@
+<input type="text" placeholder="Enter Pancard" id="ptxt"><p id="p1"></p>
+
+<input type="text" placeholder="Enter Mobile Number" id="mtxt"><p id="m1"></p>
+
+<button style="background-color:rgb(75, 87, 218); width: 17%; height: 25px; color: white;;border-radius: 5px;">Validate</button>
+<p id="valid"></p>
+
+<script>
+    document.querySelector('button').onclick = function(){
+
+        var pvalue = document.querySelector('#ptxt').value;
+        var mvalue = document.querySelector('#mtxt').value;
+
+        var regExp = /^([a-zA-Z]{5})([0-9]{4})([a-zA-Z])$/
+        var regExp1 = /^([6-9])([0-9]{9})$/
+
+        var result = regExp.test(pvalue);
+        var result1 = regExp1.test(mvalue);
+
+        var message = '';
+        if(result){
+            message = 'Valid Pancard'
+            document.querySelector('#p1').style.color = 'solid';
+        }
+        else{
+            message = 'Invalid Pancard'
+            document.querySelector('#ptxt').value='';
+            document.querySelector('#ptxt').focus();
+            document.querySelector('#p1').style.color = 'red';
+        }
+        document.getElementById('p1').innerText = message;
+
+
+        
+        var message = '';
+        if(result1){
+            message = 'Valid Mobile Number'
+            document.querySelector('#m1').style.color = 'solid';
+        }
+        else{
+            message = 'Invalid Mobile Number'
+            document.querySelector('#mtxt').value='';
+            document.querySelector('#mtxt').focus();
+            document.querySelector('#m1').style.color = 'red';
+        }
+        document.getElementById('m1').innerText = message;
+
+
+
+        var message='';
+        if(result && result1 == true){
+            message = 'Form Validated'
+            document.querySelector('#valid').style.color = 'green';
+        }
+        
+        document.getElementById('valid').innerHTML = message;
+    }
+</script>
